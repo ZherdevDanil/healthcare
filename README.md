@@ -11,7 +11,7 @@ docker-compose up
 ``` 
 docker-compose down
 ```
+6. After starting the application, it can be accessed locally at `http://localhost:8080`
 #### API
 - `GET/healtcare` : returns the date, time, and the status of the HTTP request
-
 Deploy link: https://zherdiev-healthcare.onrender.com/healthcare
