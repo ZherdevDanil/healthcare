@@ -12,6 +12,6 @@ docker-compose up
 docker-compose down
 ```
 #### API
-- `GET/healtcare` : повертає дату,час а також статус HTTP запиту
+- `GET/healtcare` : returns the date, time, and the status of the HTTP request
 
 Deploy link: https://zherdiev-healthcare.onrender.com/healthcare
