@@ -11,7 +11,10 @@ import java.util.Map;
 
 @RestController
 public class Controller {
-
+    @GetMapping("/")
+    public String index(){
+        return "Developed by Zherdiev Danylo IO-15";
+    }
     @GetMapping("/healthcare")
     public Map<String, Object> healthcare(){
         Map<String,Object> response = new HashMap<>();
